@@ -20,7 +20,7 @@ BEGIN
     i = i + 1;
     END_WHILE
     sentenceLength = sentenceLength + 1;;
-    IF (sentence[i-1] <> " ") THEN
+    IF (sentence[i-1] <> " ") THENn
         nbreOfWords = nbreOfWords +1
     END_IF
     Write("Nombre of vowels" , nbreOfVowels)
