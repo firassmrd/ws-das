@@ -19,7 +19,7 @@ BEGIN
     END_IF
     i = i + 1;
     END_WHILE
-    sentenceLength = sentenceLength + 1;
+    sentenceLength = sentenceLength + 1;;
     IF (sentence[i-1] <> " ") THEN
         nbreOfWords = nbreOfWords +1
     END_IF
